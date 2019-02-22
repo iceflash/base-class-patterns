@@ -1,0 +1,20 @@
+{
+  "name": "base-class-patterns",
+  "version": "0.0.1",
+  "description": "Base class patterns etc.",
+  "main": "main.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "singleton",
+    "class",
+    "singletone",
+    "patterns"
+  ],
+  "author": "iceflash",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^1.2.1"
+  }
+}

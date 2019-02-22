@@ -1,0 +1,14 @@
+module.exports = {
+  "extends": "airbnb-base",
+
+  "env": {
+      "browser": true,
+      "node": true
+  },
+
+  "rules": {
+      "no-param-reassign": ["error", { "props": false }],
+      "no-console": ["error", { allow: ["log", "warn", "error"] }],
+      "linebreak-style": 0,
+  }
+};
