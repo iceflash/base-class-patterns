@@ -1,15 +1,23 @@
 import test from 'ava';
-import Singleton from '../src/Singleton';
+import {Singleton} from '../main';
+import Child from './childClass';
 
 test('Should not created directly by constructor', t => {
   const res = t.throws(() => { new Singleton() });
   t.is(res.message, 'This is singleton. Use getInstance()', 'message');
 });
 
-test.todo('Base method getInstance() must throw exception');
+test('Base method getInstance() must throw exception', t => {
+  t.throws(() => {Singleton.getInstance()});
+});
 
-test.todo('Base method getInstance() should be overrided in subclass');
+test('Base method getInstance() should be overrided in subclass', t => {
+  const subclass = class subclass extends Singleton {
 
-test('Get Instance of Singleton', t => {
-  singletonInstance = Singleton.getInstance();
+  };
+  t.throws(() => { subclass.getInstance()});
+});
+
+test('Get Instance of Child class Singleton', t => {
+  t.notThrows(() => { const singletonInstance = Child.getInstance(); }, 'message');
 });

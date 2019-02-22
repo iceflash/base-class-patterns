@@ -16,5 +16,12 @@
   "license": "ISC",
   "devDependencies": {
     "ava": "^1.2.1"
+  },
+  "ava": {
+    "files": [
+      "test/*.js",
+      "!test/childClass.js",
+      "!test/foo.js"
+    ]
   }
 }
