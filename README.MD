@@ -1,6 +1,6 @@
 Basic class pattern. On that moment just *Singleton* :smile:
 # Singleton
-You may use Singleton pattern use like:
+You may use Singleton pattern like:
 
 ```javascript
 import {Singleton} from 'base-class-patterns';
