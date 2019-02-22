@@ -1,5 +1,5 @@
 Basic class pattern. On that moment just *Singleton* :smile:
-#Singleton
+# Singleton
 You may use Singleton pattern use like:
 
 ```javascript
