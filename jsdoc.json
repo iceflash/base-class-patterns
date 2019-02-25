@@ -1,7 +1,11 @@
 {
   "plugins": [],
   "recurseDepth": 10,
+  "opts": {
+    "destination": "./docs"
+  },
   "source": {
+      "include": "./src",
       "includePattern": ".+\\.js(doc|x)?$",
       "excludePattern": "(^|\\/|\\\\)_"
   },

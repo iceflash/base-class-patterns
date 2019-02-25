@@ -1,10 +1,20 @@
 {
   "name": "base-class-patterns",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Base class patterns etc.",
+  "bugs": {
+    "url": "https://github.com/iceflash/base-class-patterns/issues",
+    "email": "iceflasheroid@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iceflash/base-class-patterns"
+  },
+  "homepage": "https://github.com/iceflash/base-class-patterns",
   "main": "main.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "doc": "jsdoc -c jsdoc.json"
   },
   "keywords": [
     "singleton",
